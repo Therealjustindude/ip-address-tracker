@@ -1,6 +1,6 @@
 # IP Address Tracker
 
-![App Preview](/ip-address-tracker-snapshot.png)
+![alt text](public/ip-address-tracker-snapshot.png)
 
 ## Overview
 
