@@ -28,3 +28,168 @@ body {
     margin-left: 5%;
   }
 }
+
+#search-icon {
+  width: auto;
+  height: auto;
+}
+
+#desktop-image{
+  width: 100%;
+  height: 100%;
+}
+
+#mobile-image{
+  width: 100%;
+  height: 300px;
+}
+
+
+
+.foreground-content {
+  padding-top: 2.5rem; /* Default padding (10 in Tailwind) */
+  gap: 2.5rem; /* Default gap (10 in Tailwind) */
+}
+
+/* small screens */
+@media (min-width: 350px) {
+  .foreground-content {
+    padding-top: 3rem; /* Minimal padding for very small screens */
+    gap: 3rem; /* Minimal gap */
+  }
+}
+
+@media (min-width: 390px) {
+  .foreground-content {
+    padding-top: 3.75rem; /* Minimal padding for very small screens */
+    gap: 3.75rem; /* Minimal gap */
+  }
+}
+
+@media (min-width: 400px) {
+  .foreground-content {
+    padding-top: 4rem; /* Minimal padding for very small screens */
+    gap: 4rem; /* Minimal gap */
+  }
+}
+
+@media (min-width: 425px) {
+  .foreground-content {
+    padding-top: 4.25rem; /* Minimal padding for very small screens */
+    gap: 4.25rem; /* Minimal gap */
+  }
+}
+
+@media (min-width: 435px) {
+  .foreground-content {
+    padding-top: 4.5rem; /* Compact padding for small mobile */
+    gap: 4.5rem; /* Compact gap for small mobile */
+  }
+}
+
+@media (min-width: 500px) {
+  .foreground-content {
+    padding-top: 3.75rem; /* Smaller padding for mobile */
+    gap: 3.75rem; /* Smaller gap for mobile */
+  }
+}
+
+@media (min-width: 764px) {
+  .foreground-content {
+    padding-top: 1rem; /* Smaller padding for mobile */
+    gap: 1rem; /* Smaller gap for mobile */
+  }
+}
+
+@media (min-width: 765px) {
+  .foreground-content {
+    padding-top: 1rem; /* Smaller padding for mobile */
+    gap: 1rem; /* Smaller gap for mobile */
+  }
+}
+
+@media (min-width: 800px) {
+  .foreground-content {
+    padding-top: 1.25rem; /* Smaller padding for mobile */
+    gap: 1.25rem; /* Smaller gap for mobile */
+  }
+}
+
+/* medium screens */
+@media (min-width: 1030px) {
+  .foreground-content {
+    padding-top: 1.5rem; /* Adjust padding for smaller screens */
+    gap: 1.5rem; /* Adjust gap */
+  }
+}
+
+@media (min-width: 1190px) {
+  .foreground-content {
+    padding-top: 2rem; /* Adjust padding */
+    gap: 2rem; /* Adjust gap */
+  }
+}
+
+@media (min-width: 1330px) {
+  .foreground-content {
+    padding-top: 2.5rem; /* Adjust padding */
+    gap: 2.5rem; /* Adjust gap */
+  }
+}
+
+@media (min-width: 1420px) {
+  .foreground-content {
+    padding-top: 3rem; /* Adjust padding */
+    gap: 3rem; /* Adjust gap */
+  }
+}
+
+/* larger screens */
+@media (min-width: 1600px) {
+  .foreground-content {
+    padding-top: 3.5rem; /* Adjust padding */
+    gap: 3.5rem; /* Adjust gap */
+  }
+}
+
+@media (min-width: 1800px) {
+  .foreground-content {
+    padding-top: 5rem; /* Larger padding for extra-wide displays */
+    gap: 5rem; /* Larger gap */
+  }
+}
+
+@media (min-width: 2000px) {
+  .foreground-content {
+    padding-top: 6rem; /* Extra padding for large screens */
+    gap: 6rem; /* Extra gap */
+  }
+}
+
+@media (min-width: 2400px) {
+  .foreground-content {
+    padding-top: 7rem; /* Maximum padding for very large monitors */
+    gap: 7rem; /* Maximum gap */
+  }
+}
+
+@media (min-width: 2800px) {
+  .foreground-content {
+    padding-top: 8rem; /* Maximum padding for very large monitors */
+    gap: 8rem; /* Maximum gap */
+  }
+}
+
+@media (min-width: 3200px) {
+  .foreground-content {
+    padding-top: 10.5rem; /* Maximum padding for very large monitors */
+    gap: 10.5rem; /* Maximum gap */
+  }
+}
+
+@media (min-width: 4000px) {
+  .foreground-content {
+    padding-top: 14.5rem; /* Maximum padding for very large monitors */
+    gap: 14.5rem; /* Maximum gap */
+  }
+}
